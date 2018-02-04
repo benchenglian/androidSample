@@ -5,7 +5,6 @@ export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 #build
 ./gradlew clean
 ./gradlew assembleDebug installDebug
-./gradlew assembleDebugAndroidTest installDebugAndroidTest
 
 #test
 
